@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="teal accent-2">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="../web/css/fuente.css" rel="stylesheet">
+            <!--se referencia el css para tenerlo de manera local-->
+            <!--Import materialize.css-->
+            <link href="../web/css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css"/>
+            <link href="../web/css/estilos.css" rel="stylesheet" type="text/css">
+                <!--Let browser know website is optimized for mobile-->
+                <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+            </link>
+        </link>
+    </head>
+    <body>
+        <header>
+            <ul class="side-nav" id="slide-out">
+                <!-- se comienza a crear el side bar del menu-->
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="../web/img/Paisaje 4.jpg">
+                                <!-- se selecciona la imagen de fondo del sidebar-->
+                            </img>
+                        </div>
+                        <a href="#!user">
+                            <!-- se pone la infomacion del ususaio-->
+                            <img class="circle" src="../web/img/Skias.png"/>
+                        </a>
+                        <a href="#!name">
+                            <span class="white-text name">
+                                Rodrigo Guevara
+                            </span>
+                        </a>
+                        <a href="#!email">
+                            <span class="white-text email">
+                                vegarrodri@gmail.com
+                            </span>
+                            <!-- aqui termina la seccion de informacion del usuario-->
+                        </a>
+                    </div>
+                    <!-- div para el contenido del sidebar-->
+                </li>
+                <li>
+                    <a class="waves-effect" href="../dashboard/dashboard.php">
+                        dashboard
+                    </a>
+                </li>
+                <li>
+                    <div class="divider">
+                        <!-- clase para crear una pequena linea entre las cajas de texto en el side bar-->
+                    </div>
+                </li>
+                <li>
+                    <a class="waves-effect" href="../dashboard/usuario.php">
+                        control de usuarios
+                    </a>
+                </li>
+                <li>
+                    <div class="divider">
+                        <!-- clase para crear una pequena linea entre las cajas de texto en el side bar-->
+                    </div>
+                </li>
+                <li>
+                    <a class="waves-effect" href="../dashboard/productos.php">
+                        control de productos
+                    </a>
+                </li>
+                <li>
+                    <div class="divider">
+                    </div>
+                </li>
+                <li>
+                    <a class="waves-effect" href="../dashboard/permisos.php">
+                        permisos de usuario
+                    </a>
+                </li>
+                <li>
+                    <div class="divider">
+                    </div>
+                </li>
+                <li>
+                    <a class="waves-effect" href="">
+                        editar mi perfil
+                    </a>
+                </li>
+                <li>
+                    <div class="divider">
+                        <!-- clase para crear una pequena linea entre las cajas de texto en el side bar-->
+                    </div>
+                </li>
+                <li>
+                    <a class="waves-effect" href="../dashboard/index.php">
+                        salir
+                    </a>
+                </li>
+            </ul>
+            <a class="button-collapse btn btn-floating pulse" data-activates="slide-out" href="#">
+                <!--boton que activa el sidebar modificado con la clase floating-pulse-->
+                <i class="material-icons ">
+                    menu
+                </i>
+            </a>
+        </header>
+        <main>
+        </main>
+        <footer>
+        </footer>
+        <!--Import jQuery before materialize.js-->
+        <script src="../web/js/jquery.js" type="text/javascript">
+        </script>
+        <script src="../web/js/materialize.min.js" type="text/javascript">
+        </script>
+        <script src="../web/js/privado.js" type="text/javascript">
+        </script>
+    </body>
+</html>

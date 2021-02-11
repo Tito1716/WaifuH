@@ -1,0 +1,62 @@
+.FooterIcon{
+	width: 35%; 
+	height:35%;
+}
+
+.footmedia{
+	padding-left: 110px;
+}
+
+.creators{
+	transform: translate(-450px, -50px);
+}
+
+.pname{
+	padding-bottom: 0% !important;
+	position: relative !important;
+}
+
+.tarjeta-icon{
+	width: 15.23px; height: 48px;
+}
+
+.Truecard{
+	height: 0px;
+}
+
+.border{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.cantidad{
+	position: relative;
+	top: 20px;
+}
+
+.btn{
+	position: relative;
+	top: 30px;
+}
+
+.header-icon{
+	position: relative;
+	top: 10px;
+}
+
+.table-icon{
+	position: relative;
+	left: 130px;
+}
+
+.btnpago{
+	position: relative;
+	top: 10px;
+}
+
+.form-size{
+	position: relative;
+	height: 50% !important
+	;
+}
